@@ -1,9 +1,10 @@
-(base) [executor@Quantum ~]$ pyspark
+╭─    ~ ▓▒░································································································································░▒▓ ✔  base 🐍  13:45:53  ─╮
+╰─ pyspark                                                                                                                                                              ─╯
 Python 3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:27:36) [GCC 11.2.0] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 Setting default log level to "WARN".
 To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
-25/04/11 18:14:57 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/04/18 13:46:14 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
 Welcome to
       ____              __
      / __/__  ___ _____/ /__
@@ -13,7 +14,7 @@ Welcome to
 
 Using Python version 3.12.7 (main, Oct  4 2024 13:27:36)
 Spark context Web UI available at http://Quantum:4040
-Spark context available as 'sc' (master = local[*], app id = local-1744370097735).
+Spark context available as 'sc' (master = local[*], app id = local-1744958774795).
 SparkSession available as 'spark'.
 >>> spark.sql("select 1").show()
 +---+
@@ -24,8 +25,9 @@ SparkSession available as 'spark'.
 
 >>> import sys
 >>> sys.path
-['', '/tmp/spark-653403a5-6c29-452e-a452-3329ff613e78/userFiles-66cea898-0722-499f-85a1-13b91cbb51b6', '/opt/spark/python/lib/py4j-0.10.9.7-src.zip', '/opt/spark/python', '/home/executor', '/home/executor/anaconda3/lib/python312.zip', '/home/executor/anaconda3/lib/python3.12', '/home/executor/anaconda3/lib/python3.12/lib-dynload', '/home/executor/anaconda3/lib/python3.12/site-packages']
+['', '/tmp/spark-159efac9-54d2-4bd7-b5f4-c2538aaf4d80/userFiles-65d399b7-4c26-427b-858e-dd8915d5fad9', '/opt/spark/python/lib/py4j-0.10.9.7-src.zip', '/opt/spark/python', '/home/executor', '/home/executor/anaconda3/lib/python312.zip', '/home/executor/anaconda3/lib/python3.12', '/home/executor/anaconda3/lib/python3.12/lib-dynload', '/home/executor/anaconda3/lib/python3.12/site-packages']
 >>> import os
 >>> os.environ["SPARK_HOME"]
 '/opt/spark'
 >>>
+
